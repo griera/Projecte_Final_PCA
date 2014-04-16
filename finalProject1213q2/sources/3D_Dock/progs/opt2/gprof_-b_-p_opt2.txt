@@ -1,0 +1,57 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 34.39      5.34     5.34                             electric_field
+  6.83      6.40     1.06                             fftw_hc2hc_forward_generic
+  5.76      7.30     0.90                             fftw_no_twiddle_11
+  4.99      8.07     0.78                             fftw_hc2hc_backward_generic
+  4.89      8.83     0.76                             fftw
+  4.64      9.55     0.72                             fftw_twiddle_generic
+  3.83     10.15     0.60                             fftw_no_twiddle_10
+  3.77     10.73     0.59                             __moddi3
+  3.54     11.28     0.55                             fftw_no_twiddle_5
+  3.12     11.77     0.49                             fftw_executor_simple
+  2.45     12.15     0.38                             fftw_twiddle_rader
+  2.06     12.47     0.32                             fftw_no_twiddle_2
+  1.93     12.77     0.30                             fftw_twiddle_6
+  1.87     13.06     0.29                             fftwi_twiddle_generic
+  1.84     13.34     0.29                             executor_many
+  1.48     13.57     0.23                             fftw_twiddle_2
+  1.35     13.78     0.21                             fftw_twiddle_5
+  1.16     13.96     0.18                             fftw_measure_runtime
+  0.93     14.11     0.15                             fftw_twiddle_3
+  0.90     14.25     0.14                             fftw_no_twiddle_6
+  0.90     14.39     0.14                             rfftw
+  0.90     14.53     0.14                             surface_grid
+  0.71     14.64     0.11                             fftwi_no_twiddle_2
+  0.71     14.75     0.11                             fftwi_twiddle_rader
+  0.68     14.85     0.11                             fftw_no_twiddle_1
+  0.68     14.96     0.11                             fftw_no_twiddle_3
+  0.55     15.04     0.09                             rfftw_executor_simple
+  0.45     15.11     0.07                             fftw_strided_copy
+  0.45     15.18     0.07                             rfftw_measure_runtime
+  0.32     15.23     0.05                             rexecutor_many
+  0.29     15.28     0.05                             fftw_real2hc_1
+  0.19     15.31     0.03  1640979    18.28    18.28  pythagoras
+  0.19     15.34     0.03                             _int_malloc
+  0.19     15.37     0.03                             fftw_hc2real_1
+  0.19     15.40     0.03                             malloc
+  0.13     15.42     0.02                             discretise_structure
+  0.10     15.43     0.02                             rint
+  0.10     15.45     0.02                             fftwi_no_twiddle_1
+  0.06     15.46     0.01                             fftw_hc2hc_forward_2
+  0.06     15.47     0.01                             fftw_hc2hc_forward_32
+  0.06     15.48     0.01                             fftw_make_node_rader
+  0.06     15.49     0.01                             fftw_no_twiddle_4
+  0.06     15.50     0.01                             gettimeofday
+  0.06     15.51     0.01                             rfftw_c2hc
+  0.06     15.52     0.01                             rfftw_hc2c
+  0.03     15.52     0.01                             fftw_no_twiddle_64
+  0.03     15.53     0.01                             fftw_twiddle_64
+  0.03     15.53     0.01                             rfftw_strided_copy
+  0.00     15.53     0.00     7173     0.00     0.00  gord
+  0.00     15.53     0.00        3     0.00     0.00  duplicate_structure
+  0.00     15.53     0.00        2     0.00     0.00  radius_of_structure
+  0.00     15.53     0.00        1     0.00     0.00  main

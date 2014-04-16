@@ -1,0 +1,103 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 13.73      7.51     7.51                             electric_field (electrostatics.c:163 @ 804c770)
+ 13.64     14.97     7.46                             pythagoras (coordinates.c:51 @ 804c234)
+  8.98     19.88     4.91                             pythagoras (coordinates.c:53 @ 804c251)
+  6.10     23.22     3.34                             electric_field (electrostatics.c:135 @ 804c6a0)
+  5.92     26.46     3.24                             electric_field (electrostatics.c:139 @ 804c6d9)
+  5.80     29.63     3.18                             electric_field (electrostatics.c:139 @ 804c71d)
+  4.73     32.22     2.59                             electric_field (electrostatics.c:134 @ 804c79c)
+  4.58     34.73     2.51                             electric_field (electrostatics.c:137 @ 804c6ce)
+  4.31     37.09     2.36                             pythagoras (coordinates.c:51 @ 804c225)
+  3.63     39.07     1.99                             electric_field (electrostatics.c:143 @ 804c72d)
+  3.45     40.96     1.89 1300937139     1.45     1.45  pythagoras (coordinates.c:49 @ 804c210)
+  1.97     42.04     1.08                             fftw_hc2hc_forward_generic
+  1.88     43.07     1.03                             __libc_writev (writev.c:56 @ 80dc250)
+  1.76     44.03     0.96                             fftw_no_twiddle_11
+  1.65     44.93     0.90                             __profile_frequency (prof-freq.c:50 @ 80af490)
+  1.54     45.77     0.84                             fftw
+  1.42     46.54     0.78                             fftw_hc2hc_backward_generic
+  1.22     47.21     0.67                             fftw_twiddle_generic
+  1.00     47.76     0.55                             fftw_no_twiddle_10
+  0.99     48.30     0.54                             electric_field (electrostatics.c:135 @ 804c78e)
+  0.95     48.82     0.52                             fftw_executor_simple
+  0.90     49.31     0.50                             fftw_no_twiddle_5
+  0.90     49.81     0.50                             gord (coordinates.c:45 @ 804c200)
+  0.60     50.14     0.33                             fftw_twiddle_rader
+  0.54     50.43     0.30                             fftw_no_twiddle_2
+  0.53     50.72     0.29                             fftwi_twiddle_generic
+  0.51     51.00     0.28                             fftw_twiddle_5
+  0.51     51.28     0.28                             electric_field (electrostatics.c:157 @ 804c75c)
+  0.50     51.56     0.28                             electric_field (electrostatics.c:143 @ 804c718)
+  0.49     51.83     0.27                             fftw_twiddle_6
+  0.44     52.07     0.24                             fftwi_twiddle_rader
+  0.39     52.28     0.22                             __udivmoddi4 (libgcc2.c:881 @ 8095d81)
+  0.38     52.49     0.21                             fftw_measure_runtime
+  0.37     52.70     0.21                             executor_many
+  0.33     52.88     0.18                             fftw_twiddle_2
+  0.28     53.03     0.16                             fftw_no_twiddle_3
+  0.24     53.16     0.13                             fftwi_no_twiddle_2
+  0.21     53.28     0.12                             rfftw
+  0.20     53.39     0.11                             fftw_twiddle_3
+  0.19     53.49     0.11                             rfftw_executor_simple
+  0.19     53.60     0.11                             electric_field (electrostatics.c:134 @ 804c68f)
+  0.18     53.70     0.10                             fftw_no_twiddle_6
+  0.17     53.79     0.10                             fftw_strided_copy
+  0.12     53.86     0.07                             __moddi3 (libgcc2.c:1100 @ 8095d20)
+  0.11     53.92     0.06                             fftw_no_twiddle_1
+  0.09     53.97     0.05                             __udivmoddi4 (libgcc2.c:997 @ 8095d94)
+  0.08     54.01     0.05                             __rint (s_rint.S:13 @ 8095d16)
+  0.07     54.05     0.04                             rfftw_measure_runtime
+  0.07     54.09     0.04                             surface_grid (grid.c:150 @ 804d4d8)
+  0.06     54.13     0.04                             fftw_real2hc_1
+  0.06     54.16     0.04                             rexecutor_many
+  0.06     54.20     0.04                             __udivmoddi4 (libgcc2.c:903 @ 8095d89)
+  0.05     54.23     0.03                             fftw_hc2real_1
+  0.05     54.26     0.03                             surface_grid (grid.c:152 @ 804d4e6)
+  0.05     54.28     0.03                             __moddi3 (libgcc2.c:1117 @ 8095da9)
+  0.05     54.31     0.03                             surface_grid (grid.c:112 @ 804d4e1)
+  0.04     54.33     0.02                             _int_malloc (malloc.c:4753 @ 80a556a)
+  0.04     54.35     0.02                             _int_malloc (malloc.c:4611 @ 80a5939)
+  0.04     54.37     0.02                             fftw_hc2hc_forward_2
+  0.04     54.39     0.02                             gettimeofday (syscall-template.S:82 @ 80ab220)
+  0.04     54.41     0.02                             surface_grid (grid.c:148 @ 804d4fa)
+  0.03     54.42     0.02                             fftwi_no_twiddle_1
+  0.03     54.44     0.02                             __moddi3 (libgcc2.c:1102 @ 8095d43)
+  0.03     54.45     0.02                             __moddi3 (libgcc2.c:1106 @ 8095d45)
+  0.03     54.47     0.02                             __moddi3 (libgcc2.c:1114 @ 8095da2)
+  0.03     54.48     0.02                             fftw_no_twiddle_4
+  0.02     54.49     0.01                             __libc_malloc (malloc.c:3657 @ 80a7c80)
+  0.02     54.50     0.01                             _int_malloc (malloc.c:4304 @ 80a5547)
+  0.02     54.51     0.01                             _int_malloc (malloc.c:4330 @ 80a5578)
+  0.02     54.52     0.01                             _int_malloc (malloc.c:4592 @ 80a58ef)
+  0.02     54.53     0.01                             _int_malloc (malloc.c:4543 @ 80a5ae5)
+  0.02     54.54     0.01                             _int_malloc (malloc.c:4658 @ 80a5be1)
+  0.02     54.55     0.01                             discretise_structure (grid.c:89 @ 804d262)
+  0.02     54.56     0.01                             discretise_structure (grid.c:89 @ 804d272)
+  0.02     54.57     0.01                             electric_field (electrostatics.c:106 @ 804c526)
+  0.02     54.58     0.01                             electric_field (electrostatics.c:126 @ 804c62a)
+  0.02     54.59     0.01                             electric_field (electrostatics.c:172 @ 804c7af)
+  0.02     54.60     0.01                             fftw_make_node_rader
+  0.02     54.61     0.01                             fftwi_twiddle_2
+  0.02     54.62     0.01                             free_check (hooks.c:284 @ 80a549d)
+  0.02     54.63     0.01                             rfftw_hc2c
+  0.02     54.64     0.01                             surface_grid (grid.c:147 @ 804d501)
+  0.01     54.65     0.01                             __moddi3 (libgcc2.c:1101 @ 8095d4d)
+  0.01     54.65     0.01                             __moddi3 (libgcc2.c:1106 @ 8095d55)
+  0.01     54.66     0.01                             discretise_structure (grid.c:60 @ 804cfbd)
+  0.01     54.66     0.01                             discretise_structure (grid.c:31 @ 804cfe5)
+  0.01     54.67     0.01                             electric_point_charge (electrostatics.c:192 @ 804c90f)
+  0.01     54.67     0.01                             electric_point_charge (electrostatics.c:219 @ 804c918)
+  0.01     54.68     0.01                             fftw_gettimeofday_get_time
+  0.01     54.68     0.01                             fftw_hc2hc_backward_32
+  0.01     54.69     0.01                             fftw_no_twiddle_9
+  0.01     54.69     0.01                             fftw_twiddle_64
+  0.01     54.70     0.01                             rfftw_strided_copy
+  0.01     54.70     0.01                             surface_grid (grid.c:152 @ 804d4c8)
+  0.00     54.70     0.00     7173     0.00     0.00  gord (coordinates.c:33 @ 804c1c0)
+  0.00     54.70     0.00        3     0.00     0.00  duplicate_structure (manipulate_structures.c:261 @ 804b080)
+  0.00     54.70     0.00        2     0.00     0.00  radius_of_structure (manipulate_structures.c:551 @ 804bb20)
+  0.00     54.70     0.00        1     0.00     0.00  main (ftdock.c:45 @ 8048a50)

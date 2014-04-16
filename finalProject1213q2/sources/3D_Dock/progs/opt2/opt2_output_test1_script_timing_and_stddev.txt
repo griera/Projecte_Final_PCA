@@ -1,0 +1,28 @@
+
+*** SUCCESS ***: ftdock has been executed successfully.
+Generated output (named opt2_output_test1.txt) can be found inside /home2/users/alumnes/1125822/dades/linux/PCA/ProjecteFinal/finalProject1213q2/sources/3D_Dock/progs/opt2 folder.
+
+Now ftdock program will be executed 10 times in order to compute the following information:
+  -CPU time of the instrumented part (delimited by PCA rules) for each execution.
+  -Average CPU time.
+  -Standard deviation of the test.
+
+This test may take a few minutes, depending on number of executions and the input argument specified at command line.
+Please be pateint...
+
+Execution 1: 13.756201 seconds.
+Execution 2: 13.670234 seconds.
+Execution 3: 13.786910 seconds.
+Execution 4: 13.738634 seconds.
+Execution 5: 13.782405 seconds.
+Execution 6: 13.771112 seconds.
+Execution 7: 13.779891 seconds.
+Execution 8: 13.770266 seconds.
+Execution 9: 13.839646 seconds.
+Execution 10: 13.770847 seconds.
+
+*** SUCCESS ***: The script has finished successfully
+
+The average CPU time of ftdock program is: 13.766615 seconds.
+
+The standard deviation of ftdock program with 10 executions is: 0.042692

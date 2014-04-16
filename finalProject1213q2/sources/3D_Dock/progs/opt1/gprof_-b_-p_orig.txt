@@ -1,0 +1,62 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 47.03     25.64    25.64                             electric_field
+ 30.47     42.25    16.61 1300937139     0.01     0.01  pythagoras
+  2.02     43.35     1.10                             fftw_hc2hc_forward_generic
+  1.65     44.25     0.90                             fftw_no_twiddle_11
+  1.59     45.12     0.87                             fftw
+  1.56     45.97     0.85                             writev
+  1.50     46.79     0.82                             __profile_frequency
+  1.41     47.56     0.77                             fftw_hc2hc_backward_generic
+  1.32     48.28     0.72                             fftw_twiddle_generic
+  1.10     48.88     0.60                             __moddi3
+  0.96     49.40     0.53                             fftw_no_twiddle_5
+  0.91     49.90     0.50                             fftw_executor_simple
+  0.87     50.37     0.48                             fftw_no_twiddle_10
+  0.83     50.82     0.45     7173    62.74    62.74  gord
+  0.75     51.23     0.41                             fftw_twiddle_rader
+  0.59     51.55     0.32                             fftw_twiddle_6
+  0.57     51.86     0.31                             fftw_no_twiddle_2
+  0.51     52.14     0.28                             fftw_twiddle_5
+  0.51     52.42     0.28                             fftwi_twiddle_generic
+  0.49     52.69     0.27                             executor_many
+  0.46     52.94     0.25                             fftw_measure_runtime
+  0.28     53.09     0.15                             fftwi_twiddle_rader
+  0.25     53.22     0.14                             fftw_no_twiddle_3
+  0.24     53.35     0.13                             rfftw_executor_simple
+  0.24     53.48     0.13                             surface_grid
+  0.22     53.60     0.12                             fftw_twiddle_2
+  0.20     53.71     0.11                             fftw_twiddle_3
+  0.18     53.81     0.10                             fftwi_no_twiddle_2
+  0.17     53.90     0.09                             rfftw
+  0.15     53.98     0.08                             fftw_no_twiddle_6
+  0.10     54.04     0.06                             fftw_strided_copy
+  0.09     54.09     0.05                             _int_malloc
+  0.08     54.13     0.05                             fftw_hc2real_1
+  0.07     54.17     0.04                             fftw_no_twiddle_1
+  0.07     54.21     0.04                             fftw_real2hc_1
+  0.07     54.25     0.04                             rexecutor_many
+  0.06     54.28     0.03                             fftw_hc2hc_backward_2
+  0.06     54.31     0.03                             fftwi_no_twiddle_1
+  0.06     54.34     0.03                             rint
+  0.04     54.36     0.02                             _int_free
+  0.04     54.38     0.02                             discretise_structure
+  0.04     54.40     0.02                             malloc
+  0.04     54.42     0.02                             rfftw_hc2c
+  0.03     54.44     0.02                             fftw_no_twiddle_9
+  0.02     54.45     0.01                             electric_field_zero_core
+  0.02     54.46     0.01                             electric_point_charge
+  0.02     54.47     0.01                             fftw_hc2hc_forward_2
+  0.02     54.48     0.01                             fftw_no_twiddle_64
+  0.02     54.49     0.01                             gettimeofday
+  0.02     54.50     0.01                             rfftw_c2hc
+  0.02     54.51     0.01                             rfftw_measure_runtime
+  0.01     54.51     0.01                             fftw_hc2hc_forward_32
+  0.01     54.52     0.01                             fftw_make_node_rader
+  0.01     54.52     0.01                             fftw_no_twiddle_4
+  0.00     54.52     0.00        3     0.00     0.00  duplicate_structure
+  0.00     54.52     0.00        2     0.00     0.00  radius_of_structure
+  0.00     54.52     0.00        1     0.00     0.00  main
